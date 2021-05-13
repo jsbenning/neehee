@@ -23,6 +23,7 @@ gem 'jbuilder', '~> 2.7'
 # gem 'bcrypt', '~> 3.1.7'
 gem 'railties', '>= 6.0'
 
+
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
@@ -53,3 +54,11 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# updates to vulnerabilities
+gem "activerecord", ">= 6.0.3.5"
+gem "actionview", ">= 6.0.3.3"
+gem "nokogiri", ">= 1.11.0"
+gem "rack", ">= 2.2.3"
+gem "actionpack", ">= 6.0.3.7"
+gem "websocket-extensions", ">= 0.1.5"
